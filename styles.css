@@ -41,7 +41,7 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
   justify-content: center;
 }
 
@@ -51,6 +51,11 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.main-links {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-link {
@@ -84,16 +89,16 @@ p {
   text-align: left;
   font-size: 35px;
 }
+
 @media (max-width: 770px) {
   .homepage-image {
     display: none;
   }
-.main-links {
-  display: flex;
-  justify-content: center;
-}
-.main-paragraphs{
-  display: flex;
-  text-align: center;
-}
+  .main-paragraphs {
+    display: flex;
+    text-align: center;
+  }
+  .main-heading {
+    font-size: 58px;
+  }
 }
