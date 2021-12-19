@@ -84,9 +84,16 @@ p {
   text-align: left;
   font-size: 35px;
 }
-@media (max-width: 576px) {
+@media (max-width: 770px) {
   .homepage-image {
     display: none;
   }
- 
+.main-links {
+  display: flex;
+  justify-content: center;
+}
+.main-paragraphs{
+  display: flex;
+  text-align: center;
+}
 }
