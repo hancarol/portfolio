@@ -84,3 +84,9 @@ p {
   text-align: left;
   font-size: 35px;
 }
+@media (max-width: 576px) {
+  .homepage-image {
+    display: none;
+  }
+ 
+}
